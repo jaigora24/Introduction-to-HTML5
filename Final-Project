@@ -1,0 +1,69 @@
+Your final project is to create a web page that matches the example given here. Your page must match mine exactly other than the title and any parts that have been highlighted in yellow. (If you would like to open this image in a separate window you can find it here. If you need help with this content due to difficulties accessing the text, you can find a textual description of the image below at http://intro-webdesign.com/projectdescription.html.)
+
+Grading Checklist
+doctype
+head
+body
+nav -- add four links, they can go to anywhere you like or nowhere at all
+section - Favorite Foods
+section - Achievements
+section - More About Me
+4. footer - The image from the footer can be found at my website: http://www.intro-webdesign.com/images/newlogo.png
+
+
+
+
+>>>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Final Project</title>
+</head>
+<body>
+    <header>
+        <h1>Jai Gora</h1>
+
+        <nav>
+            <a href = "http://www.gmail.com">One</a>
+            <a href = "http://www.facebook.com">Two</a>
+            <a href = "http://www.google.com">Three</a><br>
+    </nav>
+    </header>
+    <section>
+        <h2>Favorite Foods</h2>
+        <ul>
+            <li>Rajma</li>
+            <li>Gulab Jamun</li>
+            <li>Ghewar</li>
+            <li>Panner Bhurji</li>
+            <li>Rasgulla</li>
+        </ul>
+    </section>
+    <section>
+        <h2>Achievements</h2>
+        Progress in this course (100%)
+        <progress value="100" max="100"></progress>
+        <br>
+        Progress in the Specialization capstone (20%)
+        <progress value="20" max="100"></progress>
+        <br>
+        Progress in life goals (100%)
+        <progress value="100" max="100"></progress>
+    </section>
+    <section>
+        <h2>More About Me</h2>
+        <details>
+            <summary>My Childhood</summary>I grew up in Rohtak.I really miss my university (Shri Mata Vaishno Devi University)
+        </details>
+    </section>
+    <footer>
+        <img src="http://www.intro-webdesign.com/images/newlogo.png" alt="Web Design For Everyone">
+        This page was created by Jai Gora and Colleen van Lent.
+        To learn more about web design, visit
+        <a href="http://www.intro-webdesign.com/">Intro to Web Design</a>
+    </footer>
+</body>
+</html>
+
